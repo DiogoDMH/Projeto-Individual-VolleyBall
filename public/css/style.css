@@ -58,7 +58,7 @@ body {
 
 .banner {
   height: fit-content;
-  padding: 130px 0 0 200px;
+  padding: 100px 0 10px 200px;
   color: #D98E04;
   background-image: url("../assets/imgs/DESISTO.jpg ");
   background-size: cover;
@@ -67,7 +67,7 @@ body {
 }
 
 .banner .container {
-  height: 400px;
+  /* height: 400px;s */
   font-size: 36px;
   justify-content: center;
   align-items: center;
@@ -154,7 +154,7 @@ font-weight: 900;
   display: flex;
   font-size: 15px;
   border-top: 3px solid #8C501C;
-  margin-top: 15px;
+  /* margin-top: 15px; */
 }
 
 .footer .container {
@@ -167,12 +167,14 @@ font-weight: 900;
 .banner .container .card {
   background-color: #e5e5e5;
   height: fit-content;
-  width: 400px;
+  width: 380px;
   display: flex;
   flex-direction: column;
-  color: palevioletred;
+  color: #26241E;
   align-items: center;
   border-radius: 4px;
+  margin-top: -80px;
+  margin-left: 200px;
 }
 
 .card {
@@ -232,8 +234,8 @@ button {
 
 input {
   margin-bottom: 10px;
-  border: 2px solid #32b9cd;
-  padding: 10px;
+  border: 2px solid #8C501C;
+  /* padding: 10px; */
   text-align: center;
   border-radius: 10px;
 }
@@ -373,3 +375,4 @@ input {
 .simulador .container {
   flex-direction: column
 }
+
