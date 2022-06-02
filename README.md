@@ -1,2 +1,2 @@
-# Projeto-Individual-VolleyBall
-Local para armazenamento de todas as partes do projeto.
+# API Projeto Site - 1º Semestre
+Esta API será utilizada para conectar seu Website do Projeto de PI ao Banco de Dados.
