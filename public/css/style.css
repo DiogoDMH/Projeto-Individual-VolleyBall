@@ -19,6 +19,8 @@ body {
   height: 50px;
 }
 
+
+
 .header {
   border-bottom: 3px solid #8C501C;
 }
@@ -67,7 +69,7 @@ body {
 }
 
 .banner .container {
-  /* height: 400px;s */
+  height: 400px;
   font-size: 36px;
   justify-content: center;
   align-items: center;
@@ -75,13 +77,13 @@ body {
 
 
 
-/* .tamanho-conteudo { 
+.tamanho-conteudo { 
   height: fit-content !important;
-} */
+}
 
 .banner p {
   width: 600px;
-  margin-top: -250px;
+  margin-bottom: 195px;
   margin-left: 500px;
   font-size: 37px;
   font-weight: bold;
@@ -107,6 +109,14 @@ body {
   justify-content: center;
 
 }
+
+
+
+.tipo_campo {
+  color: #D98E04;
+    
+}
+
 
 .box img {
   width: 170px;
@@ -154,7 +164,7 @@ font-weight: 900;
   display: flex;
   font-size: 15px;
   border-top: 3px solid #8C501C;
-  /* margin-top: 15px; */
+  margin-top: 15px;
 }
 
 .footer .container {
@@ -165,25 +175,27 @@ font-weight: 900;
 /* LOGIN */
 
 .banner .container .card {
-  background-color: #e5e5e5;
+  background-color: #000000f5;
   height: fit-content;
   width: 380px;
   display: flex;
   flex-direction: column;
-  color: #26241E;
+  color: #161A59;
   align-items: center;
-  border-radius: 4px;
+  border-radius: 30px;
   margin-top: -80px;
   margin-left: 200px;
 }
 
 .card {
   display: flex;
-  justify-content: space-around;
+  padding-left: 10px;
+  border: 3px solid #8C501C;
 }
 
 .card h2 {
-  font-size: 30px;
+  font-size: 28px;
+  color: #D98E04;
 }
 
 .card h4 {
@@ -235,7 +247,7 @@ button {
 input {
   margin-bottom: 10px;
   border: 2px solid #8C501C;
-  /* padding: 10px; */
+  padding: 10px;
   text-align: center;
   border-radius: 10px;
 }
@@ -244,21 +256,26 @@ input {
   font-family: "Barlow", sans-serif;
   border: 0;
   border-radius: 5px;
+  transition: 0.8s;
   font-weight: 600;
   font-size: 18px;
   padding: 10px 15px;
   color: white;
-  background-color: #e6005a;
+  background: linear-gradient(#161A59, #000000);
   width: 120px;
   align-self: center;
   margin-top: 5px;
+}
+
+.btn:hover {
+  background: linear-gradient(#D98E04, transparent);
 }
 
 .loading-div {
   width: 50px;
   margin: auto;
   display: none;
-}
+} 
 
 .loading-div img {
   height: 50px;
@@ -290,7 +307,7 @@ input {
   align-items: center;
   border-right: 3px solid #32b9cd;
   background-color: #212124;
-  /* border: 3px solid pink; */
+  border: 3px solid pink;
 }
 
 .dash-right {
