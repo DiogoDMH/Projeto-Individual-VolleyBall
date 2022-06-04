@@ -31,10 +31,10 @@
     color: #D98E04;
   }
 
-.h2 {
+  .h2 {
 font-size: 35px;
 }
-
+  
   .alerta_erro{
     display: flex;
     justify-content: flex-end;
@@ -72,7 +72,7 @@ font-size: 35px;
   
   .formulario .tipo_campo {
     font-size: 15px;
-    font-weight: 600 !important;
+    font-weight: 600;
   }
 
   
