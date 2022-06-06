@@ -33,12 +33,10 @@
             <h1 class="titulo"> VballGrowth</h1>
             <ul class="navbar">
                 <li>
-                    <a href="./index.html">
-                        Inicial
-                    </a>
+                    <a href="./index.html">Inicial</a>
                 </li>
                 <li>
-                    <a href="./simulador.html">Treino</a>
+                    <a href="./treinos.html">Treinos</a>
                 </li>
                 <li>
                     <a href="./highlights.html">Highlights</a>
@@ -120,13 +118,14 @@
 
         //Recupere o valor da nova input pelo nome do id
         // Agora vá para o método fetch logo abaixo
-        var nomeVar = nome_input.value;
-        var emailVar = email_input.value;
-        var cpfVar = cpf_input.value;
-        var senhaVar = senha_input.value;
-        var confirmacaoSenhaVar = confirmacao_senha_input.value;
+        var nomeVar = (nome_input.value);
+        var emailVar = (email_input.value);
+        var p1Var = (p1_input.value);
+        var p2Var = (p2_input.value);
+        var senhaVar = (senha_input.value);
+        var confirmacaoSenhaVar = (confirmacao_senha_input.value);
 
-        if (nomeVar == "" || emailVar == "" ||cpfVar == "" ||senhaVar == "" || confirmacaoSenhaVar == "") {
+        if (nomeVar == "" || emailVar == "" ||p1Var == "" || p2Var == "" || senhaVar == "" || confirmacaoSenhaVar == "") {
             cardErro.style.display = "block"
             mensagem_erro.innerHTML = "Preencha todos os campos para prosseguir!";
 
